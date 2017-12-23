@@ -1,7 +1,7 @@
 title:  Asch Whitepaper
 ---
 # Einführung
-Seit der Einführung von Bitcoin in 2009 und der damit verbundenen rasanten Entwicklung wurde überlegt ob die Technologie nicht eine ölkj.
+Seit der Einführung von Bitcoin in 2009 und der damit verbundenen rasanten Entwicklung wurde laut überlegt ob Bitcoin sein ganzes Potenzial ausschöpft.
 
 Since Bitcoin was introduced in 2009 and had been rapidly developing for these several years, people found that Bitcoin has more potential than just be a kind of electronic currency. Especially blockchain, the underlying technology of Bitcoin, has the unlimited capacity even more valuable than Bitcoin itself. The blockchain technology can be applied in the development of different kinds of application, which have the same characteristic that is decentralization. The emerging of these decentralized applications also promotes a new application architecture, which is based on an open-source platform. Based on this concept, we propose the Asch system, a development platform for decentralized applications.
 # Übersicht
@@ -171,6 +171,17 @@ increment. Let us imagine that a vending machine in a sidechain based IoT can no
 
 
 # Fazit
-Asch schafft es die Einstiegshürde um Blockchain-Applikationen zu entwickeln runter zu setzen. Mit einer der häufigst verwendeten Sprachen, JavaScript mit der Verwendung von relationalen Datenbanken können viele bereits erlernte Fähigkeiten für die Entwicklung eingesetzt werden.
+Asch, eine dezentrale Applikationsplattform schafft es die Einstiegshürde für die Entwickung von Blockchain-Applikationen runter zu setzen. Mit einer der häufigst verwendeten Sprachen, JavaScript und der Verwendung von relationalen Datenbanken ist die Erstellung von Blockchain-Apps so leicht wie herkömmliche Web-Entwicklung.
 
-Asch system is a decentralized application platform, which is designed to lower the threshold for developers, such as using JavaScript as develop language, supporting relational database to save transaction data, and making DAPP development be similar with traditional Web application. It is sure that these characteristics are very attractive to developers and SMEs. The ecosystem of the whole platform cannot be improved until developers make a huge progress on productivity. Also, Asch platform is designed to be open for various fields, not limited to some particular parts such as finance, file storage, or copyright proof. It provides underlying and abstract API which can be combined freely to create different types of applications. In consensus mechanism, Asch inherits and enhances DPOS algorithm, by which the possibility of forks and risk of duplicate payments would be significantly reduced. Furthermore, Asch sidechain mode not only can mitigate the pressure of blockchain expansion, but also make DAPP more flexible and personal. Asch system, as a proactive, low-cost and full stack solution, will surely be a next generation incubator of decentralized applications.
+Die vorher genannten Eigenschaften macht Asch besonders für kleine und mittlere Unternehmen äußerst attraktiv.
+
+
+The ecosystem of the whole platform cannot be improved until developers make a huge progress on productivity. 
+
+Die Asch-Plattform ist nicht nur auf einen Aufgabenbereich zugeschnitten. Asch kann in unterschiedlichen Bereichen wie Finanz, Urheberrechtsnachweise und Datenspeicherung eingesetzt werden. Mit der zugrundeliegenden API lassen sich leicht unterschiedliche Typen von Applikationen realisieren. 
+
+Der Konsensus-Mechanismus ist ein verbesserter `Delegate Proof-of-Stake` ([DPoS](https://www.mycryptopedia.com/delegated-proof-stake-dpos-explained/)) Mechanismus. Dieser beugt doppelte Zahlungen vor und beugt Forks vor. Die Asch-Sidechain-Technologie schützt die Haupt-Blockchain vor unnötiger Ausdehnung und lässt bietet eine komfortable und flexible DAPP Entwicklungsumgebung. Asch ist eine Full-Stack Dapp-Platform auf der in Zukunft viele dezentrale Applikationen laufen werden.
+
+ 
+ In consensus mechanism, Asch inherits and enhances DPOS algorithm, by which the possibility of forks and risk of duplicate payments would be significantly reduced. Furthermore, Asch sidechain mode not only can mitigate the pressure of blockchain expansion, but also make DAPP more flexible and personal. Asch system, as a proactive, low-cost and full stack solution, will surely be a next generation incubator of decentralized applications.
+
