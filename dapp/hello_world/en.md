@@ -5,8 +5,9 @@
 - [Dapp Development Tutorial 1: Asch Dapp Hello World](#dapp-development-tutorial-1-asch-dapp-hello-world)
   - [1 Basic Process](#1-basic-process)
     - [1.1 System requirements](#11-system-requirements)
-  - [Install Asch Blockchain](#install-asch-blockchain)
+  - [2 Install Asch Blockchain](#2-install-asch-blockchain)
   - [2 Automated](#2-automated)
+  - [2.1 Install tooling](#21-install-tooling)
   - [3 Manual Steps](#3-manual-steps)
   - [2 Setup asch-cli](#2-setup-asch-cli)
   - [4 Start localnet](#4-start-localnet)
@@ -34,10 +35,33 @@ The development of Dapps involve each one of these networks:
 ### 1.1 System requirements
 - Node v8.x.x
 
-This tutorial can be followed be done in the __automated__ or the __manual__ way. In the __automated__ path all __manual__ steps are automated for you.  
 
-## Install Asch Blockchain
+## 2 Install Asch Blockchain
 
+Install all dependencies:  
+
+```bash
+# Install dependency package
+sudo apt-get install curl sqlite3 ntp wget git libssl-dev openssl make gcc g++ autoconf automake python build-essential -y
+# libsodium for ubuntu 14.04
+sudo apt-get install libtool -y
+# libsodium for ubuntu 16.04
+sudo apt-get install libtool libtool-bin -y
+
+# Install nvm
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+# This loads nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" 
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Install node and npm for current user.
+nvm install v8
+# check node version and it should be v8.x.x
+node --version
+```
+
+Install the Asch Blockchain:  
 ```bash
 # clone asch
 git clone https://github.com/aschplatform/asch.git asch && cd asch && npm install && cd ..
@@ -45,9 +69,16 @@ git clone https://github.com/aschplatform/asch.git asch && cd asch && npm instal
 
 ## 2 Automated
 
+This tutorial can be done in the __automated__ or the __manual__ way. In the __automated__ path all __manual__ steps are automated for you.  
+
+## 2.1 Install tooling
+
+
 
 
 ## 3 Manual Steps
+
+
 
 ## 2 Setup asch-cli
 
