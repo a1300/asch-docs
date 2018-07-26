@@ -69,10 +69,14 @@ git clone https://github.com/aschplatform/asch.git asch && cd asch && npm instal
 
 ## 2 Automated
 
-This tutorial can be done in the __automated__ or the __manual__ way. In the __automated__ path all __manual__ steps are automated for you.  
+This tutorial can be done in the __automated__ or the __manual__ way. Use [3 Manual](./##3Manual Steps)  
 
 ## 2.1 Install tooling
 
+Install [asch-redeploy](https://github.com/aschplatform/asch-redeploy):  
+```bash
+npm install --global asch-redeploy
+```
 
 
 
