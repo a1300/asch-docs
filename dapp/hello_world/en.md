@@ -1,10 +1,32 @@
 # Dapp Development Tutorial 1: Asch Dapp Hello World
 
+<!-- TOC -->
+
+- [Dapp Development Tutorial 1: Asch Dapp Hello World](#dapp-development-tutorial-1-asch-dapp-hello-world)
+  - [1 Basic Process](#1-basic-process)
+    - [1.1 System requirements](#11-system-requirements)
+  - [Install Asch Blockchain](#install-asch-blockchain)
+  - [2 Automated](#2-automated)
+  - [3 Manual Steps](#3-manual-steps)
+  - [2 Setup asch-cli](#2-setup-asch-cli)
+  - [4 Start localnet](#4-start-localnet)
+  - [5 Start The Frontend Application (optional)](#5-start-the-frontend-application-optional)
+  - [6 Prepare Account For Dapp Registration](#6-prepare-account-for-dapp-registration)
+  - [7 Create A Dapp Metadata File](#7-create-a-dapp-metadata-file)
+  - [8 Register The Dapp On The Localnet](#8-register-the-dapp-on-the-localnet)
+  - [9 Install the dapp on the localnet](#9-install-the-dapp-on-the-localnet)
+  - [10 Access The Dapp In Your Browser](#10-access-the-dapp-in-your-browser)
+  - [11 Set Dapp Genesis Password](#11-set-dapp-genesis-password)
+  - [12 The folder structure](#12-the-folder-structure)
+  - [13 Dapp Deposit](#13-dapp-deposit)
+
+<!-- /TOC -->
+
 ## 1 Basic Process
 
 There are three types of networks in Asch, localnet, testnet, and mainnet. The later two, testnet and mainnet, are usually deployed online, which can be accessed by a public network. Meanwhile the first type, localnet, as its name is running on local machine, which is actually a private chain with only one node. Localnet is designed to help developing and testing locally.
 
-And the development of Dapp involves all of these types of network simultaneously, which is:
+The development of Dapps involve each one of these networks:  
 - step 1: developing and testing locally on the localnet
 - step 2: testing on the testnet
 - step 3: deploying officially on mainnet
@@ -12,17 +34,27 @@ And the development of Dapp involves all of these types of network simultaneousl
 ### 1.1 System requirements
 - Node v8.x.x
 
+This tutorial can be followed be done in the __automated__ or the __manual__ way. In the __automated__ path all __manual__ steps are automated for you.  
+
+## Install Asch Blockchain
+
+```bash
+# clone asch
+git clone https://github.com/aschplatform/asch.git asch && cd asch && npm install && cd ..
+```
+
+## 2 Automated
+
+
+
+## 3 Manual Steps
+
 ## 2 Setup asch-cli
 
 ```
 npm install -g asch-cli
 ```
 
-## 3 Setup asch
-```
-# clone asch
-git clone https://github.com/aschplatform/asch.git asch && cd asch && npm install && cd ..
-```
 ## 4 Start localnet
 
 Run your own local asch node.
