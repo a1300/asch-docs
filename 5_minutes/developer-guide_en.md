@@ -1,5 +1,3 @@
-
-
 <!-- TOC -->
 
 - [ASCH developer guide](#asch-developer-guide)
@@ -9,6 +7,8 @@
     - [Personal ASCH account](#personal-asch-account)
     - [Assets](#assets)
   - [DApp Concepts](#dapp-concepts)
+    - [DApp Refuel](#dapp-refuel)
+    - [DApp Withdrawal](#dapp-withdrawal)
 
 <!-- /TOC -->
 
@@ -40,7 +40,8 @@ TODO: Add link to document where all transactions are recorded
 
 TODO: Show picture of a transaction happening on the sidechain
 
-TODO: Show example on how 
+TODO: Show example on how to sign a transaction for an __in-built__ transaction
+TODO: Show also example on how to 
 
 
 
@@ -52,11 +53,16 @@ You can have a
 
 ### Assets
 
-The main currency is XAS (which has a precision of 8). Furthermore it is possible to 
+The main currency is XAS (which has a precision of 8). Furthermore it is possible to issue own assets.
+
+With your own account you have a balance, not only of XAS but also of other currencies.  
 
 
 
 ## DApp Concepts
 
 
+### DApp Refuel  
 
+
+### DApp Withdrawal  
